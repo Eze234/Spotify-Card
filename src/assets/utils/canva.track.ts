@@ -2,10 +2,12 @@ import SpotiClient from "@spotify/Client";
 import { fetchLyrics } from "@assets/plugins/spotify/lyrics";
 import {
     createCanvas,
-    loadImage
+    loadImage,
+    registerFont
 } from "canvas";
 
 export async function track(url: string) {
+    registerFont("./src/assets/fonts/sans-serif.ttf", { family: 'sans-serif' });
     const Client = new SpotiClient(process.env.CLIENT_ID!, process.env.CLIENT_SECRET!);
 
     const track_id = getSpotifyTrackId(url);

@@ -1,10 +1,12 @@
 import SpotiClient from "@spotify/Client";
 import {
     createCanvas,
-    loadImage
+    loadImage,
+    registerFont
 } from "canvas";
 
 export async function album(url: string) {
+    registerFont("./src/assets/fonts/sans-serif.ttf", { family: 'sans-serif' });
     const Client = new SpotiClient(process.env.CLIENT_ID!, process.env.CLIENT_SECRET!);
 
     const album_id = getSpotifyAlbumId(url);
