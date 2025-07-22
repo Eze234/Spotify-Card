@@ -13,7 +13,8 @@ cd "Spotify-Card"
 
 npm install
 
-npm run dev```
+npm run dev
+```
 
 # Credits 🚬
 * [Eze234](https://me.ezezzz.xyz) - Developer
