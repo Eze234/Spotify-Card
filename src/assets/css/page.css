@@ -1,0 +1,127 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #313337;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: black;
+  color: white;
+}
+
+.navlinks {
+  display: flex;
+  gap: 1.5rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  text-decoration: underline;
+  color: #3953c1;
+}
+
+.centerContent {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 320px;
+  max-width: 90vw;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #d3d3d3;
+  color: black;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.input::placeholder {
+  color: black;
+}
+
+.input:focus {
+  outline: 2px solid #3953c1;
+}
+
+.centerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 320px;
+  max-width: 90vw;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #d3d3d3;
+  color: black;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.input::placeholder {
+  color: black;
+}
+
+.input:focus {
+  outline: 2px solid #3953c1;
+}
+
+.submitBtn {
+  width: 320px;
+  max-width: 90vw;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #222;
+  box-shadow: 0 0 10px #3953c1;
+}
+
+.downloadBtn {
+  margin-top: 10px;
+  margin-right: 190px;
+  padding: 10px 20px;
+  background-color: #3953c1;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  box-shadow: 0 0 20px#3953c1;
+}
+
+.downloadBtn:hover {
+  background-color: 0 0 10px #3953c1;
+}
+
+.spotifyImage {
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
